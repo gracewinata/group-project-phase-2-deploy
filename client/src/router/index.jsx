@@ -38,13 +38,13 @@ const router = createBrowserRouter([
       {
         path: '/chatroom',
         element: <ChatRoom socket={socket}/>,
-        loader: () => {
-          if (!localStorage.username) {
-              return redirect('/chatroom')
-          }
+      //   loader: () => {
+      //     if (!localStorage.username) {
+      //         return redirect('/chatroom')
+      //     }
 
-          return null
-      }
+      //     return null
+      // }
 
       },
       {
