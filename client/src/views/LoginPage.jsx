@@ -169,33 +169,7 @@ export default function LoginPage({ base_url }) {
               Sign Up
             </Link>
           </p>
-          {/* Divider */}
-          <div className="divider px-10 my-4">OR</div>
-          {/* Google Login */}
-          <div className="flex justify-center items-center">
-            <GoogleLogin
-              onSuccess={googleLogin}
-              onError={() => {
-                Toastify({
-                  text: "Google Sign-In Failed",
-                  duration: 3000,
-                  close: true,
-                  gravity: "bottom",
-                  position: "right",
-                  style: {
-                    background: "#FF0000",
-                    color: "#FEF2BF",
-                    border: "3px solid #000000",
-                    borderRadius: "10px",
-                    boxShadow: "4px 4px #000000",
-                    fontFamily: "'Press Start 2P', cursive",
-                    fontSize: "14px",
-                    padding: "10px 15px",
-                    textAlign: "center",
-                  },
-                }).showToast();
-              }}
-            />
+     
           </div>
         </div>
       </div>
