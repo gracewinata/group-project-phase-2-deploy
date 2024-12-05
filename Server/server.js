@@ -4,7 +4,7 @@ const { Server } = require("socket.io");
 const httpServer = createServer();
 const io = new Server(httpServer, {
   cors: "http://localhost:5174/",
-});
+});;
 
 const allUsers = {};
 const allRooms = [];
