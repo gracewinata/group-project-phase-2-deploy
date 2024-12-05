@@ -10,7 +10,7 @@ import ProfilePage from "../views/ProfilePage";
 import PlayPage from "../views/PlayPage";
 import RoomSelectPage from "../views/RoomSelectPage";
 import MultiPlayPage from "../views/MultiPlayPage";
-import TicTacToe from "../components/TicTacToe/tictactoe";
+import TicTacToe from "../components/TicTacToe/TicTacToe";
 import TicTacToeLanding from "../components/TicTacToe/TicTacToeLanding";
 import Chat from "../components/Chat/Chat";
 import ChatRoom from "../components/Chat/ChatRoom";
